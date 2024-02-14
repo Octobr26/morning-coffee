@@ -59,12 +59,7 @@ export function HeaderMenu() {
     }
 
     return (
-      <a
-        key={link.label}
-        href={link.link}
-        className={classes.link}
-        onClick={(event) => event.preventDefault()}
-      >
+      <a key={link.label} href={link.link} className={classes.link}>
         {link.label}
       </a>
     );
@@ -74,7 +69,9 @@ export function HeaderMenu() {
     <header className={classes.header}>
       <Container size="md">
         <div className={classes.inner}>
-          <MantineLogo size={28} />
+          <a href="/">
+            <MantineLogo size={28} />
+          </a>
           <Group gap={5} visibleFrom="sm">
             {items}
           </Group>
