@@ -20,6 +20,9 @@ import { HeaderMenu } from '../components/HeaderMenu/HeaderMenu';
 import { CardsCarousel } from '@/components/CardsCarousel/CardsCarousel';
 import { Stack } from '@mantine/core';
 import '@mantine/carousel/styles.css';
+import { CardsCarousel } from '@/components/CardsCarousel/CardsCarousel';
+import { Stack } from '@mantine/core';
+import '@mantine/carousel/styles.css';
 export default function HomePage() {
   return (
     <>
