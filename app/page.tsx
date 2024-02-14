@@ -1,6 +1,5 @@
 import { Welcome } from '../components/Welcome/Welcome';
 import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
-import { HeaderMenu } from '../components/HeaderMenu/HeaderMenu';
 
 import { FC } from 'react'
 
